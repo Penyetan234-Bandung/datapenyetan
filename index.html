@@ -1,0 +1,24 @@
+<!doctype html>
+<html lang="id">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <meta name="theme-color" content="#ffffff">
+  <meta name="description" content="Penyetan 234 — pesanan, pelanggan, menu, belanja, dan laporan operasional.">
+  <title>Penyetan 234</title>
+  <link rel="manifest" href="manifest.webmanifest">
+  <link rel="icon" type="image/png" href="icons/icon-192.png">
+  <link rel="apple-touch-icon" href="icons/icon-192.png">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <div id="offline" class="offline" hidden>Anda sedang offline. Aplikasi tetap bisa dipakai, data tersimpan di perangkat ini.</div>
+  <main id="view" aria-live="polite"></main>
+  <nav class="bottom-nav" id="nav" aria-label="Navigasi utama"></nav>
+  <div id="sheet-root"></div>
+  <div id="toast" class="toast" role="status"></div>
+  <div id="update-bar" class="update-bar" hidden>Versi baru tersedia <button id="update-btn" class="btn small primary" type="button">Muat ulang</button></div>
+  <noscript><p style="padding:24px">Aplikasi ini membutuhkan JavaScript.</p></noscript>
+  <script type="module" src="js/app.js"></script>
+</body>
+</html>

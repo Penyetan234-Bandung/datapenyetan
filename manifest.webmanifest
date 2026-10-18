@@ -1,0 +1,23 @@
+{
+  "name": "Penyetan 234",
+  "short_name": "Penyetan 234",
+  "description": "Kelola pesanan, pelanggan, menu, belanja, dan laporan Penyetan 234.",
+  "lang": "id",
+  "dir": "ltr",
+  "start_url": "./index.html",
+  "scope": "./",
+  "display": "standalone",
+  "orientation": "portrait-primary",
+  "background_color": "#ffffff",
+  "theme_color": "#ffffff",
+  "categories": ["business", "productivity", "food"],
+  "icons": [
+    { "src": "icons/icon-192.png", "sizes": "192x192", "type": "image/png", "purpose": "any" },
+    { "src": "icons/icon-512.png", "sizes": "512x512", "type": "image/png", "purpose": "any" },
+    { "src": "icons/icon-maskable-512.png", "sizes": "512x512", "type": "image/png", "purpose": "maskable" }
+  ],
+  "shortcuts": [
+    { "name": "Pesanan", "url": "./index.html#/pesanan", "icons": [{ "src": "icons/icon-192.png", "sizes": "192x192" }] },
+    { "name": "Belanja", "url": "./index.html#/belanja", "icons": [{ "src": "icons/icon-192.png", "sizes": "192x192" }] }
+  ]
+}
